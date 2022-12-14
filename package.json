@@ -1,0 +1,19 @@
+{
+  "name": "daily-oli-price",
+  "version": "1.0.0",
+  "description": "how much price of oil today in korea?",
+  "main": "handler.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": ["oil"],
+  "author": "Junu Park",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.25.0"
+  },
+  "dependencies": {
+    "playwright-aws-lambda": "^0.9.0",
+    "playwright-core": "^1.25.0"
+  }
+}
