@@ -17,7 +17,7 @@ function App() {
         lowest: parseInt(Math.random() * 10000),
       });
     }, 100);
-    const ret = await fetch('https://oilprice.6unu.net');
+    const ret = await fetch('https://api-oilprice.6unu.net');
     const { average, highest, lowest } = await ret.json();
     clearInterval(interval);
     setLoading(false);
