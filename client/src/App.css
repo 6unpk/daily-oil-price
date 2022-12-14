@@ -1,0 +1,38 @@
+body #root {
+  height: 100vh;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.header {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.row {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
