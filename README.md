@@ -6,5 +6,5 @@
  디젤은 추후에.
 
 ```
-curl https://oilprice.6unu.net
+curl https://api-oilprice.6unu.net
 ```
